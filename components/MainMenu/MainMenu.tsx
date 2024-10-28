@@ -75,7 +75,7 @@ export default function MainMenu() {
                         onPress={() => setSelectedComponent(null)}
                         style={styles.backButton}
                     >
-                        <Ionicons name="arrow-back" size={24} color="#007AFF" />
+                        <Ionicons name="arrow-back" size={24} color="#0404E2" />
                         <Text style={styles.backText}>Menu</Text>
                     </TouchableOpacity>
                     <Text style={styles.headerTitle}>
@@ -143,7 +143,7 @@ const styles = StyleSheet.create({
         zIndex: 1,
     },
     backText: {
-        color: '#007AFF',
+        color: '#0404E2',
         marginLeft: 4,
         fontSize: 16,
     },
@@ -158,7 +158,7 @@ const styles = StyleSheet.create({
         flex: 1,
     },
     button: {
-        backgroundColor: '#007AFF',
+        backgroundColor: '#0404E2',
         padding: 15,
         borderRadius: 10,
         marginVertical: 8,

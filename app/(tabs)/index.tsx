@@ -1,11 +1,11 @@
-import { Image } from 'react-native';
-import ParallaxScrollView from '@/components/ParallaxScrollView';
-import MainMenu from '@/components/MainMenu/MainMenu';
+import React from 'react';
+import { View } from 'react-native';
+import MainMenu from '../../components/MainMenu/MainMenu';
 
-export default function HomeScreen() {
-    return (
-
-        <MainMenu />
-
-    );
+export default function TabOneScreen() {
+  return (
+    <View style={{ flex: 1 }}>
+      <MainMenu />
+    </View>
+  );
 }
